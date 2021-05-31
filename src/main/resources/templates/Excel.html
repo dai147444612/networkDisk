@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+  <title>打开Excel文件</title>
+  <div style="width:1000px;height:700px;" th:utext="${pageoffice}"> </div>
+  <script type="text/javascript">
+    function Save() {
+      document.getElementById("PageOfficeCtrl1").WebSave();
+    }
+  </script>
+  </script>
+  <script type="text/javascript" src="/pageoffice.js" >
+  </script>
+  <a href="javascript:POBrowser.openWindowModeless('http://localhost:9099/excel','width=1200px;height=800px;');">点我开</a>
+</head>
+<body>
+
+</body>
+</html>
