@@ -58,10 +58,10 @@ public class CodeGenerator {
         /**
          * 表的名字需要修改
          */
-        dsc.setUrl("jdbc:mysql://47.110.55.173:3306/NetworkDisk");
+        dsc.setUrl("jdbc:mysql:");
         dsc.setDriverName("com.mysql.cj.jdbc.Driver");
-        dsc.setUsername("root");
-        dsc.setPassword("Dai20020117.");
+        dsc.setUsername("");
+        dsc.setPassword("");
         mpg.setDataSource(dsc);
 
         // 包配置
